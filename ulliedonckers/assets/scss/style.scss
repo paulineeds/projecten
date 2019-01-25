@@ -6,6 +6,7 @@ $black: #202121;
 body{
   background-image: url("../img/brickwall.png");
   font-family:  $font;
+  overflow-x: hidden;
 
   .grey {
     background-color: grey ;

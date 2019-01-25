@@ -27,14 +27,14 @@ body{
   }
 
   nav {
-    opacity: 0.6;
+    opacity: 0.5;
   }
 
   header {
     .titles {
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 60px;
+  padding-bottom: 70px;
   }
     img{
       width: 100%;
@@ -106,8 +106,10 @@ body{
 
     }
     address{
+      text-align: center;
+
       p {
-        text-align: center;
+      text-align: center;
       }
     }
     i{

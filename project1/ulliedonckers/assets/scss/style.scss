@@ -1,0 +1,112 @@
+$font: 'Lato', sans-serif;
+$extracolor: #BA272F;
+$fontcolor:#F4F7F6;
+$black: #202121;
+
+body{
+  background-image: url("../img/brickwall.png");
+  font-family:  $font;
+
+  .grey {
+    background-color: grey ;
+    opacity: 0.6;
+    color: $fontcolor;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 3px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .white{
+    background-image: url("..img/brickwall.png");
+    color: $black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  nav {
+    opacity: 0.6;
+  }
+
+  header {
+    .titles {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 60px;
+  }
+    img{
+      width: 100%;
+    h1 {
+
+      margin-top: 55px;
+    }
+    h2 {
+      color: $extracolor;
+    }
+  }
+  main {
+    h3 {
+      padding-bottom: 10px;
+
+    }
+    p{
+      text-align: justify;
+      padding-left: 2px;
+    }
+  }
+
+  aside {
+    h3 {
+      padding-bottom: 10px;
+    }
+    h6{
+      padding-bottom: 5px;
+      font-size: 15px;
+      a{
+        color: $black;
+        text-decoration: underline;
+      }
+    }
+    ul {
+      list-style: circle;
+      padding-left: 17px;
+      a {
+        color: black;
+        font-size: 12px;
+      }
+      p{
+        text-align: justify;
+      }
+    }
+    a:hover{
+      color:$extracolor;
+    }
+  }
+
+  section {
+    h3 {
+      padding-bottom: 10px;
+    }
+    img{
+      width: 200px;
+    }
+  }
+
+  article {
+    h3 {
+      padding-bottom: 10px;
+    }
+
+  }
+  footer{
+    img{
+      width: 100px;
+    }
+    i{
+      margin-right: 5px;
+    }
+  }
+  }
+@import 'media';
